@@ -93,7 +93,7 @@ class WoodpeckerRequest
 		return new Client([
 			'base_uri' => $this->baseUrl . 'rest/' . $this->version . '/',
 			'headers' => [
-				'Authorization' => 'Basic ' . base64_encode($this->key . ':'),
+				'Authorization' => $this->key,
 			],
 		]);
 	}
