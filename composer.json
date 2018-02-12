@@ -16,7 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-          "Smartsupp\\Woodpecker\\": "src/Smartsupp/Woodpecker",
+          "Smartsupp\\Woodpecker\\": "src/Smartsupp/Woodpecker"
         }
     }
 }
