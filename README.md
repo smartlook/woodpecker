@@ -6,7 +6,7 @@
 
 ### Example:
 ```php
-$woodpecker = new Insightly($apiKey, $apiVersion) // $apiVersion is optional, v1 is default
+$woodpecker = new Woodpacker($apiKey, $apiVersion) // $apiVersion is optional, v1 is default
 $woodpecker->getProspects();
 ```
 
